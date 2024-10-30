@@ -1,0 +1,29 @@
+button#right, button#left {
+    background-color: #00bfa5;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 30px;
+}
+/* for chrome */
+button {
+    outline: none;
+}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+.controls {
+    margin: 40px 0;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding-left: 19px;
+}
